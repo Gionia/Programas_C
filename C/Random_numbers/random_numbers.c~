@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h> /* de aqui se obtendra la funcion rand() */
+#include <time.h>
+#define LOWER 1
+
+int main()
+{
+    int i, factor_escalamiento = 6, count, number, iteraciones;
+    float probability;
+    unsigned seed; /* semilla para randomizar*/
+
+    printf( "Ingrese la semilla: (semilla automatica, ver programa)\n" );
+    /* scanf( "%u", &seed );*/
+
+     /* Esto provoca que la computadora lea su reloj y obtenga el valor para la semilla
+        de manera automática. La función time devuelve la hora del día en segundos.
+        Este valor se convierte en un entero sin signo y se utiliza como
+        semilla para la generación de números aleatorios. La función time toma un argumento
+        NULL (time es capaz de proporcionar al programador la cadena que representa la
+        hora del día; NULL deshabilita esta capacidad para la llamada específica a la
+        función). El prototipo de la función para time se encuentra en <time.h>. */
+
+    srand( time(NULL) );
+    iteraciones = 10;
+
+    for( i = LOWER ; i < iteraciones ; i++){
+
+        number = 1 + rand() % factor_escalamiento;
+        printf( "%10d", number ); /* es de suma importancia el factor de escalamiento */
+
+        if( number == 1 ) /*se elige algun numero del uno al seis */
+            count++;
+
+        if( i%5 == 0)
+            printf( "\n" );
+
+    }
+
+    printf( "\n" );
+    probability = count / iteraciones;
+    printf( "La probabilidad debe ser 1/6 y es: %f\n", probability );
+
+
+
+} /* fin de la funcion main */
