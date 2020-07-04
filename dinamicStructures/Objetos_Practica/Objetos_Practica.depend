@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1586223757 source:/home/giovannyencinia/Documents/Programs/C/dinamicStructures/Objetos_Practica/main.cpp
+	<iostream>
+	"Persona.h"
+
+1586273901 /home/giovannyencinia/Documents/Programs/C/dinamicStructures/Objetos_Practica/Persona.h
+	<stdlib.h>
+	<iostream>
+	<string>
+

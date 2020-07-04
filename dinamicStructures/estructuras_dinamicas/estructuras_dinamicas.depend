@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1585845478 source:/home/giovannyencinia/Documents/Programs/C/dinamicStructures/estructuras_dinamicas/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+	"lista.h"
+
+1585845705 source:/home/giovannyencinia/Documents/Programs/C/dinamicStructures/estructuras_dinamicas/funciones_listas_ligadas.c
+	<stdlib.h>
+	"lista.h"
+	<string.h>
+
+1585845718 /home/giovannyencinia/Documents/Programs/C/dinamicStructures/estructuras_dinamicas/lista.h
+	<stdio.h>
+	"estructura.h"
+
+1585791018 /home/giovannyencinia/Documents/Programs/C/dinamicStructures/estructuras_dinamicas/estructura.h
+

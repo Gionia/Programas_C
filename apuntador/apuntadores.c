@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stddef.h>
-/* Autor: Gionia | Last Modification: 27/03/2020 */ 
+/* Autor: Gionia | Last Modification: 27/03/2020 */
 
 void inverso ( const char  *const ptrS );
 

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1588718921 source:/home/giovannyencinia/Documents/Programs/C/linked_ligue/functions_list.c
+	"struct.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588719009 /home/giovannyencinia/Documents/Programs/C/linked_ligue/struct.h
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585861283 source:/home/giovannyencinia/Documents/Programs/C/dinamicStructures/listas_enlazadas/main.c
+	<stdio.h>
+	<stdlib.h>
+
